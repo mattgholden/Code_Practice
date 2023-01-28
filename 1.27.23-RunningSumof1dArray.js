@@ -2,6 +2,7 @@
 
 // Return the running sum of nums.
 
+//We can use map to store the key-value pairs
 const runningSum = (nums) => {
     nums.map((num,index) => {
         if(index != 0){
