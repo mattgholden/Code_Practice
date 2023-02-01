@@ -7,4 +7,22 @@
  //True or False
  //We want to find characters that are in the same position
  //loop through to compare the index positions, create an array.
+ //indexOf
+
+ var isSubsequence = function(s, t) {
+    // let indexS = [];
+    // let indexT = [];
+    if(s.length > t.length){
+        return false
+    }
+    for (let i=0; i< s.length; i++){
+        if (!t.includes(s[i])){
+            return false
+        }else{
+            t = t.slice(t.indexOf(s[i])+1)
+        }
+    // compare if s == t
+    }
+    return true;
+};
  
