@@ -6,5 +6,5 @@
  //Is the s string a subsequence of t string or not?
  //True or False
  //We want to find characters that are in the same position
- //loop through to compare the index positions
+ //loop through to compare the index positions, create an array.
  
