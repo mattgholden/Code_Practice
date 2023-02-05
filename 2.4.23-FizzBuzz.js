@@ -5,19 +5,21 @@
 // answer[i] == "Buzz" if i is divisible by 5.
 // answer[i] == i (as a string) if none of the above conditions are true.
 
-var fizzBuzz = function(n) {
-    let answer = [];
-    while (n){
-        if(!(n%15)){
-            answer.unshift('FizzBuzz');
-        } else if(!(n%3)){
-            answer.unshift('Fizz');
-        } else if(!(n%5)){
-            answer.unshift('Buzz');
-        } else {
-            answer.unshift('' + n);
-        }
-        n--;
-    }
-    return answer;
-};
+// var fizzBuzz = function(n) {
+//     let answer = [];
+//     while (n){
+//         if(!(n%15)){
+//             answer.unshift('FizzBuzz');
+//         } else if(!(n%3)){
+//             answer.unshift('Fizz');
+//         } else if(!(n%5)){
+//             answer.unshift('Buzz');
+//         } else {
+//             answer.unshift('' + n);
+//         }
+//         n--;
+//     }
+//     return answer;
+// };
+
+/////More understandable solution///
