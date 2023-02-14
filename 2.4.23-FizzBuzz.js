@@ -23,7 +23,7 @@
 // };
 
 /////More understandable solution///
-function fizzBuzz(n){
+const fizzBuzz = (n) => {
     // create a variable to store an array
     let answer = [];
     //for loop starting at index 1, if i is less than or equal to n we continue.
