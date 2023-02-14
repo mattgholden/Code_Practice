@@ -9,7 +9,7 @@
  //loop through to compare the index positions, create an array.
  //indexOf
 
- var isSubsequence = function(s, t) {
+const isSubsequence = (s, t) => {
     // let indexS = [];
     // let indexT = [];
     if(s.length > t.length){
