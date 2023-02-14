@@ -1,6 +1,6 @@
 // Given the head of a singly linked list, reverse the list, and return the reversed list.
 
-var reverseList = function(head){
+const reverseList = (head) => {
     if(!head)
     return null;
 
