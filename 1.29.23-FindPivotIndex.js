@@ -7,7 +7,7 @@ function Accumulation(arr){
     return arr.reduce((a,b)=>a+b);  
 }
 
-var pivotIndex = function(nums) {
+const pivotIndex = (nums) => {
     // Balance
     let totalOnLeft = 0;
     let totalOnRight = Accumulation(nums);
