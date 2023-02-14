@@ -2,7 +2,7 @@
 
 // If there are two middle nodes, return the second middle node.
 
-var middleNode = function(head) {
+const middleNode = (head) => {
 let fast = slow = head;
     while (fast && fast.next) {
         fast = fast.next.next;
