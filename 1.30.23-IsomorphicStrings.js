@@ -15,7 +15,7 @@
 //If the same letter is replacing the same letter
 //And the quantity matches we return true
 
-var isIsomorphic = function(s, t) {
+const isIsomorphic = (s, t) => {
     //hold key-value pairs with Map
     let charMap = new Map();
     //Store the values
