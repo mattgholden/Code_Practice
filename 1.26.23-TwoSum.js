@@ -13,7 +13,7 @@
 //If the element has been, then we return the index
 
 
-var twoSum = function(nums, target){
+const twoSum = (nums, target) => {
     //Need a way to store the answer so create an array.
     ans = [];
     //Use Map to store the difference and the index.
