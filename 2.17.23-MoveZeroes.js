@@ -13,5 +13,9 @@ const moveZeroes = (nums) => {
     nums.fill(0, i);
 }
 
+let nums = [0, 3, 0, 5, 14];
+moveZeroes(nums);
+console.log(nums);
+
 //We use two pointers 'i' & 'j' to traverse the array.  When we encounter a non-zero element @ index 'j', we swap it with the element @ index 'i', and increment 'i'.
 // Finally, we fill the remaining positions of the array w/ zeroes.
