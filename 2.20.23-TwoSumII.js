@@ -22,3 +22,5 @@ const twoSum = (numbers, target) =>{
     }
     return [];
 }
+
+// Here we use 2 pointers, 1 is at the beginning of the array and the other is at the end.  We start by calculating the sum of the elements at the 2 pointers.  If the sum = to the target, we have the solution and we return the indices of these elements.  If the sum is < the target, we move the left pointer to the right.  If the sum is > the target, we move the right pointer to the left.  We repeat until we find the solution or go through all possible element pairs.
