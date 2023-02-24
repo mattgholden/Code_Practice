@@ -5,11 +5,11 @@ const reverseWords = (s) => {
     const words = s.split(' ');
 
     // Reverse the word
-    const reverseWords = words.map((word) => {
+    const reversedWords = words.map((word) => {
         return word.split('').reverse().join('');
     });
     // Join reversed words back into a sentence
-    const reversedSentence = reverseWords.join('');
+    const reversedSentence = reversedWords.join('');
 
     return reversedSentence;
 }
