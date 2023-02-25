@@ -9,7 +9,7 @@ const reverseWords = (s) => {
         return word.split('').reverse().join('');
     });
     // Join reversed words back into a sentence
-    const reversedSentence = reversedWords.join('');
+    const reversedSentence = reversedWords.join(' ');
 
     return reversedSentence;
 }
