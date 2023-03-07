@@ -45,3 +45,5 @@ const searchRange = (nums, target) => {
  
  return [start, end];
 };
+
+// This algorithm has a time complexity of O(log n) since we perform two binary searches which take O(log n) time each.
