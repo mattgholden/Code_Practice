@@ -21,5 +21,22 @@ const spiralOrder = (matrix) =>{
             result.push(matrix[i][right]);
         }
         right--;
+
+        //Traverse left
+        if (top <= bottom){
+            for (let i = right; i >= left; i--){
+                result.push(matrix[bottom][i]);
+            }
+            bottom--;
+        }
+        
+        //Traverse Up
+        if (left <= right){
+            for(let i = bottom; i >= top; i--){
+                result.push(matrix[i][left]);
+            }
+            left++;
+        }
     }
+    return result;
 }
