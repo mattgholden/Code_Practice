@@ -17,3 +17,5 @@ const sumOfNumOverTenOrUnderFive = (nums) =>{
 // If the function returns the value of 'sum'.  This will be the sum of all the elements in the array that are either > 10 or < 5.
     return sum;
 }
+
+// Time complexity should be O(n).  n = the # of elements in the input array.  The time taken to execute the function scales linearly w/ the size of the input array.
