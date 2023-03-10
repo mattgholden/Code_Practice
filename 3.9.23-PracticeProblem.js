@@ -14,7 +14,7 @@ const sumOfNumOverTenOrUnderFive = (nums) =>{
     }
 // If the element meets the above criteria the function adds the element's value to the a 'sum' variable.
     
-// If the function returns the value of 'sum'.  This will be the sum of all the elements in the array that are either > 10 or < 5.
+//The function returns the value of 'sum'. This will be the sum of all the elements in the array that are either > 10 or < 5.
     return sum;
 }
 
