@@ -5,3 +5,20 @@
 // You may imagine that nums[-1] = nums[n] = -∞. In other words, an element is always considered to be strictly greater than a neighbor that is outside the array.
 
 // You must write an algorithm that runs in O(log n) time.
+
+const findPeakElement = (nums) => {
+    let left = 0;
+    let right = nums.length - 1;
+  
+    while (left < right) {
+      let mid = Math.floor((left + right) / 2);
+  
+      if (nums[mid] < nums[mid + 1]) {
+        left = mid + 1;
+      } else {
+        right = mid;
+      }
+    }
+  
+    return left;
+  }
