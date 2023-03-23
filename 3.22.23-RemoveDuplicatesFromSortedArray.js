@@ -5,3 +5,19 @@
 // Return k after placing the final result in the first k slots of nums.
 
 // Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
+
+const removeDuplicates = (nums) => {
+    if (nums.length === 0) {
+      return 0;
+    }
+    
+    let i = 0; // current unique element
+    for (let j = 1; j < nums.length; j++) {
+      if (nums[j] !== nums[i]) {
+        i++;
+        nums[i] = nums[j];
+      }
+    }
+    
+    return i + 1; // k elements in the modified array
+  }
