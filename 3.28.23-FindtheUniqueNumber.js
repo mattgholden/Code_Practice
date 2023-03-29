@@ -6,3 +6,12 @@
 
 // The tests contain some very huge arrays, so think about performance.
 
+const findUniq = (arr) => {
+    // do magic
+      for (let i = 0; i < arr.length; i++) {
+      let num = arr[i];
+      if (arr.indexOf(num) === arr.lastIndexOf(num)) {
+        return num;
+      }
+    }
+  }
